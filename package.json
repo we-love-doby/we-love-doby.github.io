@@ -1,0 +1,22 @@
+{
+  "name": "we-love-doby.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/we-love-doby/we-love-doby.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/we-love-doby/we-love-doby.github.io/issues"
+  },
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  },
+  "homepage": "https://github.com/we-love-doby/we-love-doby.github.io#readme"
+}
