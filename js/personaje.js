@@ -23,7 +23,7 @@ const buildCharacter = (element) => {
 
     let estaVivo = element.alive ? "Vivo" : "Muerto";
     let especie = element.species === 'human' ? "Humano" : "No Humano";
-
+    console.log("2");
     return `
     <div syle='display:inline'>
         <div class='character'>
@@ -46,6 +46,7 @@ const buildCharacter = (element) => {
 };
 
 const drawCharacters = (data) => {
+    console.log("1");
     let currentCharacters = document.getElementById('character');
 
     currentCharacters.appendChild(newCharacters);
